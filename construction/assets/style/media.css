@@ -1,0 +1,67 @@
+
+@media (max-width: 1240px) {
+   
+    .container {
+        width: 95%;
+    }
+    .wcau-contin {
+        flex-direction: column;
+    }
+    .choose-us {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .contact-contain div input {
+        width: 100%;
+        display: block;
+        padding: 10px 20px
+    }
+}
+@media (max-width: 1000px){
+    .nav-content,
+    .nav-info {
+        display: none;
+    }
+    .nav-mobile .nav-mobile-contain .button {
+        display: block;
+    }
+}
+@media (max-width: 900px) {
+    /* services */
+    .main-services-contain {
+        flex-direction: column;
+    }
+    .main-services-contain .box {
+        width: 100%;
+    }
+    .main-services-contain .box .symbol {
+        width: 10%;
+    }
+    .main-services-contain .box .info {
+        width: 90%;
+    }
+   /* footer */
+   .footer-section {
+        flex-direction: column;
+    }
+    .footer-section div  {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .awesome-facts {
+        justify-content: center;
+    }
+    .awesome-facts .contain {
+        margin-right: 0;
+    }
+    .acess-tape-contain {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .acess-tape-contain button{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+  
+}

@@ -1,0 +1,129 @@
+.wcau {
+    width: 100%;
+    padding: 30px 0;
+}
+.wcau-contin {
+    display: flex;
+    justify-content: space-between;
+}
+.choose-us  {
+    width: 50%;
+    padding: 5px;
+}
+.choose-us h2{
+    color: rgb(56, 55, 55);
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+}
+.wcau h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 60px;
+    background-color: #febb17;
+    left: 35px;
+    bottom: -15px;
+    transform: translateX(-60%);
+}
+.choose-us-contain {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+.choose-us-contain .box .choose-us-title {
+    padding: 10px;
+    background-color: #dedddd;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.1s;
+}
+
+.choose-us-contain .box div h3{
+    color: rgb(64, 64, 64);
+}
+.choose-us-contain .box p {
+    color: rgb(150, 146, 146);
+    padding: 20px 5px;
+    display: none;
+    transition: all 0.6s;
+   
+}
+.choose-us-contain .box .accordion-active {
+    display: block;
+    animation: accordion;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+
+
+}
+@keyframes accordion {
+    0% {
+        opacity: 0;
+        margin-top: -60px;
+    }
+    100% {
+        opacity: 1;
+        
+    }
+}
+
+/* about us */
+.contact {
+    padding: 5px;
+}
+.contact h2{
+    color: rgb(56, 55, 55);
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+}
+.wcau h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 60px;
+    background-color: #febb17;
+    left: 35px;
+    bottom: -15px;
+    transform: translateX(-60%);
+}
+.contact-contain {
+    margin-top: 30px;
+}
+.contact-contain div input{
+    padding: 5px 20px;
+    font-size: 18px;
+    margin-top: 20px;
+    border: 1px solid rgb(187, 182, 182);
+    font-size: 18px;
+    color: rgb(123, 120, 120);
+    outline: none;
+    width: 100%;
+}
+.contact-contain div input:valid,
+.contact-contain textarea{
+    border: 1px solid #febb17;
+}
+.contact-contain textarea {
+    border: 1px solid rgb(187, 182, 182);
+    width: 100%;
+    margin-top: 20px;
+    outline: none;
+    color: rgb(123, 120, 120);
+    font-size: 18px;
+    text-indent: 20px;
+    overflow-y: scroll;
+    height: 120px;
+}
+.contact-contain button {
+        width: 100%;
+        text-transform: uppercase;
+        border: none;
+        color: white;
+        background-color: #febb17;
+        padding: 19px;
+        font-weight: bold;
+        margin-top: 20px;
+        cursor: pointer;
+}

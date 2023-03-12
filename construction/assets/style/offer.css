@@ -1,0 +1,72 @@
+.offer {
+    width: 100%;
+    padding: 30px 0;
+}
+.offer h2{
+    color: rgb(56, 55, 55);
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+}
+.offer h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 60px;
+    background-color: #febb17;
+    left: 35px;
+    bottom: -15px;
+    transform: translateX(-60%);
+}
+.offer-contain {
+    margin: 50px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0 0 20px 0;
+}
+.offer-contain .box {
+    width: 350px;
+    margin-top: 10px;
+
+}
+.offer-contain .box .info {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.offer-contain .box img {
+    width: 100%;
+    height: 50%;
+}
+.offer-contain .box .info h3 {
+    color: rgb(45, 44, 44);
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.offer-contain .box .info p {
+    color: #777;
+    font-size: 20px;
+}
+.offer-contain .box .info button {
+    width: 120px;
+    padding: 10px 25px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    background-color: #febb17;
+    cursor: pointer;
+}
+.offer-contain .box .info button:hover {
+    color: white;
+    background-color: #414141;  
+}
+.offer-swiper-prev,
+.offer-swiper-next {
+    color: #febb17;
+    border: 1px solid #febb17;
+  
+}

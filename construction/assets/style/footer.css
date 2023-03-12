@@ -1,0 +1,116 @@
+footer {
+    background-color: #1a1a1a;
+    padding: 40px;
+    position: relative;
+}
+.footer-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-section div {
+    width: 32%;
+
+}
+
+.footer-section div h2{
+    color: rgb(255, 254, 254);
+    text-transform: uppercase;
+    font-size: 30px;
+    position: relative;
+}
+.footer-section div h2::after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 60px;
+    background-color: #febb17;
+    left: 35px;
+    bottom: -15px;
+    transform: translateX(-60%);
+}
+.footer-section .footer-about .info {
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
+
+}
+.footer-section .footer-about img {
+    width: 220px;
+} 
+.footer-section .footer-about p {
+    color: gray;
+    font-size: 17px;
+    margin-top: 30px;
+
+}
+/* links */
+.footer-section .footer-links .info {
+    display: flex;
+    margin-top: 50px;
+    width: 100%;
+}
+.footer-section .footer-links div {
+    width: 50%;
+}
+.footer-section .footer-links .info div li {
+    padding: 8px 0px;
+    list-style-type: '>>';
+    color: gray;
+    font-size: 10px;
+ 
+}
+
+.footer-section .footer-links .info div li a {
+    color: gray;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.footer-section .footer-links .info div li a:hover {
+    color: #febb17;
+}
+
+/* contact */
+.contact .info{
+    margin-top: 50px;
+    width: 100%;
+    font-size: 18px;
+    color: gray;
+}
+.contact .info div {
+    width: 100%;
+}
+.contact .info p {
+    padding: 10px 0;
+}
+.contact .social-media  {
+    width: 100%;
+    margin-top: 30px;
+    text-align: center;
+
+}
+.contact .social-media a{
+    color: white;
+    padding: 0px 5px;
+    font-size: 18px;
+
+}
+.contact .social-media a i{
+    background-color: rgb(42, 41, 41);
+    padding: 10px;
+    border: 0.4px solid rgba(176, 176, 176, 0.446);
+
+
+}
+.contact .social-media a i:hover {
+    background-color: #febb17;
+
+}
+
+.footer-bottom {
+  background-color: black;
+  padding: 20px;
+}
+.footer-bottom p {
+    color: gray;
+}

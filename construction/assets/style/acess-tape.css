@@ -1,0 +1,29 @@
+.acess-tape {
+    background-color: #febb17;
+}
+.acess-tape-contain {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.acess-tape-contain p {
+    color: white;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.acess-tape-contain button {
+    font-size: 18px;
+    padding: 10px 45px;
+    background-color: white;  
+    color: #414141;  
+    border: none;
+    cursor: pointer;
+    
+}
+.acess-tape-contain button:hover {
+    color: white;
+    background-color: #414141;  
+}
